@@ -31,7 +31,7 @@ export const About = (props) => {
 
   return (
     <>
-      <div className='container-fluid  nav_bg  '>
+      <div className='container-fluid '>
         <div className='row'>
           <div className='col-8 mx-auto' >
             <div class="card text-center mt-4">
@@ -44,7 +44,7 @@ export const About = (props) => {
                 })}
               </div>
             </div>
-            <div className='Submit_form mt-4' encType="multipart/form-data"  >
+            <div className='form mt-4' encType="multipart/form-data">
               <h3 className='text-center text-light'>For Visitors </h3>
               <form onSubmit={submit} encType="multipart/form-data">
                 <div className="mb-3">

@@ -14,7 +14,11 @@
   width:100px
 } */
 
-
+.form-control{
+  margin: auto;
+  left:0;
+  right:0;
+}
 
 .navbar-brand{
 
