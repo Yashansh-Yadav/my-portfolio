@@ -41,7 +41,7 @@ export const AddProjects = (props) => {
     reader.readAsDataURL(carouselfile[0])
     reader.onload = (e) => {
       setcarouselImage(e.target.result);
-      //  console.warn(e.target.result);
+       console.warn(e.target.result);
     }
   }
 
